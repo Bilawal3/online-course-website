@@ -544,7 +544,9 @@
     .search h1 {
         font-size: 40px;
     }
-
+    .search{
+        height: 400px;
+    }
     .search .form1 {
         width: 80%;
         height: 250px;
