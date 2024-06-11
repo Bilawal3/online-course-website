@@ -1,0 +1,881 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg {
+    width: 100%;
+    height: 949px;
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -170px;
+}
+
+.container-fluid .navbar-brand {
+    color: #D82A4E;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container-fluid .navbar-brand span {
+    color: white;
+}
+
+.container-fluid {
+    margin-top: 5%;
+}
+
+.navbar-nav {
+    gap: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #D82A4E;
+}
+
+.d-flex .btn1 {
+    width: 100px;
+    height: 40px;
+    background-color: #D82A4E;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.bg h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 13.3%;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.bg p {
+    width: 54%;
+    text-align: center;
+    color: white;
+    margin-top: 1.2%;
+    margin-left: 23%;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.bg .form {
+    width: 60%;
+    height: 100px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.bg .form .name {
+    width: 35%;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.bg .form .btn2 {
+    width: 20%;
+    height: 60px;
+    background-color: #D82A4E;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+/* ///////////////main///////////////////////// */
+.main {
+    width: 100%;
+    height: 1000px;
+}
+
+.main h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 8%;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.main p {
+    width: 71%;
+    text-align: center;
+    color: black;
+    margin-top: 1.2%;
+    margin-left: 12.5%;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.main .main-box1 {
+    width: 100%;
+    height: 350px;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main .main-box1 .box {
+    width: 30%;
+    height: 350px;
+    background-color: rgb(222, 255, 255);
+    margin-top: 5%;
+}
+
+.main .main-box1 .box img {
+    width: 100%;
+}
+
+.main .main-box1 .box h3 {
+    padding-top: 5%;
+    padding-left: 30px;
+}
+
+.main .main-box1 .box h6 {
+    padding-left: 30px;
+}
+
+.main .main-box1 .box h4 {
+    padding-top: 5%;
+    padding-left: 30px;
+    color: #D82A4E;
+}
+
+/* ////////////////////search////////////////////////////// */
+.container {
+    margin-bottom: 3%;
+}
+
+.search {
+    width: 96%;
+    height: 400px;
+    margin-top: 6%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    background-color: #D82A4E;
+}
+
+.search h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 5%;
+    color: white;
+}
+
+.search .form1 {
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: white;
+}
+
+.search .form1 .name {
+    width: 35%;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 0;
+    background-color: rgb(224, 224, 224);
+    outline: 0;
+    border-bottom: 2px solid #D82A4E;
+}
+
+.search .form1 .btn2 {
+    width: 20%;
+    height: 60px;
+    background-color: #D82A4E;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+/* //////////////////////teacher//////////////////////////// */
+.teacher {
+    width: 100%;
+    height: 800px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teacher .form {
+    width: 50%;
+    height: 800px;
+    background-color: #D82A4E;
+}
+
+.teacher .form h1 {
+    width: 75%;
+    font-size: 40px;
+    color: white;
+    padding-top: 10%;
+    padding-left: 10%;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.teacher .form p {
+    width: 85%;
+    padding-left: 10%;
+    line-height: 30px;
+    font-size: 13px;
+    color: white;
+}
+
+.teacher .img {
+    width: 50%;
+    height: 800px;
+    background-image: url(img/signup-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.teacher .form .form1 {
+    width: 80%;
+    height: 450px;
+    margin-left: 10%;
+    margin-top: 6%;
+    background-color: white;
+}
+
+.teacher .form .form1 .name {
+    width: 80%;
+    height: 60px;
+    margin-top: 6%;
+    margin-left: 10%;
+    padding-left: 20px;
+    border: 0;
+    background-color: rgb(235, 235, 235);
+    outline: 0;
+    border-bottom: 2px solid #D82A4E;
+}
+
+.teacher .form .form1 .btns {
+    width: 50%;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+.teacher .form .form1 .btn2 {
+    width: 80%;
+    height: 60px;
+    background-color: #474747;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 3%;
+    border-radius: 0;
+}
+
+.teacher .form .form1 .btn3 {
+    width: 100%;
+    height: 60px;
+    background-color: #D82A4E;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 3%;
+    border-radius: 0;
+}
+
+/* //////////////////////Join//////////////////////////// */
+.Join {
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+}
+
+.Join h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 3%;
+    color: rgb(32, 32, 32);
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.Join p {
+    width: 71%;
+    text-align: center;
+    color: rgb(92, 92, 92);
+    margin-top: 1.2%;
+    margin-left: 15%;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.Join .btn1 {
+    width: 20%;
+    height: 60px;
+    background-color: #D82A4E;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 40%;
+    border-radius: 0;
+}
+
+/* //////////////////////footer//////////////////// */
+.footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid #D82A4E;
+    flex-wrap: wrap;
+}
+
+.footer ul {
+    width: 20%;
+}
+
+.footer ul li {
+    list-style: none;
+    line-height: 30px;
+}
+
+.footer .ul1 li {
+    line-height: 35px;
+}
+
+.footer ul h3 {
+    font-size: 25px;
+}
+
+.footer .btn2 {
+    width: 60%;
+    height: 60px;
+    background-color: #D82A4E;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8%;
+    margin-left: 0;
+    border-radius: 0;
+}
+
+.footer .name {
+    width: 80%;
+    height: 40px;
+    margin-top: 2%;
+    margin-left: 0;
+    padding-left: 10px;
+    border: 0;
+    background-color: rgb(235, 235, 235);
+    outline: 0;
+    border-bottom: 2px solid #D82A4E;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1400px) {
+    .bg {
+        height: 750px;
+    }
+
+    .bg .form {
+        width: 80%;
+        height: 100px;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .bg {
+        height: 750px;
+    }
+
+    .bg .form {
+        width: 80%;
+        height: 100px;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    /* ////////////////////search////////////////////////////// */
+    .search {
+        width: 96%;
+        height: 300px;
+    }
+    .search .form1 .name {
+        width: 32%;
+    }
+
+    .search .form1 .btn2 {
+        width: 20%;
+        font-size: 18px;
+    }
+
+    /* //////////////////////teacher//////////////////////////// */
+
+    .teacher .form h1 {
+        width: 90%;
+    }
+
+    .teacher .form .form1 .btns {
+        width: 60%;
+        margin-left: 8%;
+        margin-top: 3%;
+    }
+    /* //////////////////////FOOTER//////////////////////////// */
+    .footer ul {
+        width: 18%;
+    }
+    .footer ul h3 {
+        font-size: 20px;
+    }
+    .footer ul li {
+        line-height: 25px;
+    }
+    .footer .btn2 {
+        width: 60%;
+        height: 40px;
+        margin-top: 16%;
+    }
+    .footer .name {
+        width: 80%;
+        height: 40px;
+        margin-top: 8%;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    .bg {
+        height: 800px;
+    }
+
+    .bg h1 {
+        font-size: 40px;
+    }
+
+    .bg p {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .bg .form {
+        width: 60%;
+        height: 250px;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+
+    .bg .form .name {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .bg .form .btn2 {
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+    /* /////////////main///////////////////// */
+    .main {
+        height: 100%;
+    }
+
+    .main h1 {
+        font-size: 40px;
+    }
+
+    .main p {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .main .main-box1 {
+        height: 100%;
+    }
+
+    .main .main-box1 .box {
+        width: 40%;
+    }
+
+    /* ////////////////////serach///////////////////// */
+    .main1 {
+        height: 100%;
+    }
+
+    .search h1 {
+        font-size: 40px;
+    }
+
+    .search .form1 {
+        width: 80%;
+        height: 250px;
+        margin-left: 10%;
+    }
+
+    .search .form1 .name {
+        width: 94%;
+        margin-left: 3%;
+    }
+
+    .search .form1 .btn2 {
+        width: 60%;
+        margin-top: 15px;
+        margin-left: 20%;
+        font-size: 18px;
+    }
+
+    /* //////////////////////teacher//////////////////////////// */
+    .teacher {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .teacher .form {
+        width: 100%;
+    }
+
+    .teacher .form h1 {
+        width: 95%;
+        font-size: 30px;
+    }
+
+    .teacher .img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .teacher .form .form1 .btns {
+        width: 60%;
+        margin-left: 8%;
+        margin-top: 3%;
+    }
+
+    /* //////////////////////Join//////////////////////////// */
+    .Join {
+        width: 100%;
+        height: 300px;
+        margin-top: 5%;
+    }
+
+    .Join h1 {
+        font-size: 30px;
+    }
+
+    .Join p {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .Join .btn1 {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    /* //////////////////////footer//////////////////// */
+    .footer {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .footer ul {
+        margin-top: 5%;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    .bg {
+        height: 780px;
+    }
+
+    .bg p {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .bg .form {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    /* /////////////main///////////////////// */
+    .main .main-box1 .box {
+        width: 40%;
+    }
+
+    /* ////////////////////serach///////////////////// */
+    .search {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    /* //////////////////////teacher//////////////////////////// */
+    .teacher {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .teacher .form {
+        width: 100%;
+    }
+
+    .teacher .form h1 {
+        width: 95%;
+        font-size: 30px;
+    }
+
+    .teacher .img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .teacher .form .form1 .btns {
+        width: 80%;
+        margin-left: 8%;
+        margin-top: 3%;
+    }
+
+    .teacher .form .form1 .btn2 {
+        font-size: 15px;
+    }
+
+    /* //////////////////////Join//////////////////////////// */
+    .Join h1 {
+        font-size: 40px;
+    }
+
+    .Join .btn1 {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    /* //////////////////////footer//////////////////// */
+    .footer {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .footer ul {
+        margin-top: 5%;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bg h1 {
+        font-size: 40px;
+    }
+
+    .bg p {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .bg .form {
+        width: 80%;
+        height: 250px;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    .bg .form .name {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .bg .form .btn2 {
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+    /* /////////////main///////////////////// */
+    .main {
+        height: 100%;
+    }
+
+    .main h1 {
+        font-size: 32px;
+    }
+
+    .main p {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .main .main-box1 .box {
+        width: 80%;
+    }
+
+    /* ////////////////////serach///////////////////// */
+    .main1 {
+        height: 100%;
+    }
+
+    .search h1 {
+        font-size: 40px;
+    }
+
+    .search .form1 {
+        width: 80%;
+        height: 250px;
+        margin-left: 10%;
+        margin-top: 7%;
+    }
+
+    .search .form1 .name {
+        width: 94%;
+        margin-left: 3%;
+    }
+
+    .search .form1 .btn2 {
+        width: 60%;
+        margin-top: 15px;
+        margin-left: 20%;
+
+    }
+
+    /* //////////////////////teacher//////////////////////////// */
+    .teacher {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .teacher .form {
+        width: 100%;
+    }
+
+    .teacher .form h1 {
+        width: 95%;
+        font-size: 30px;
+    }
+
+    .teacher .img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .teacher .form .form1 .btns {
+        width: 80%;
+        margin-left: 8%;
+        margin-top: 3%;
+    }
+
+    .teacher .form .form1 .btn2 {
+        font-size: 15px;
+    }
+
+    /* //////////////////////Join//////////////////////////// */
+    .Join {
+        width: 100%;
+        height: 100%;
+        margin-top: 8%;
+    }
+
+    .Join h1 {
+        font-size: 30px;
+    }
+
+    .Join p {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .Join .btn1 {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    /* //////////////////////footer//////////////////// */
+    .footer {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .footer ul {
+        width: 100%;
+    }
+
+    .footer ul li {
+        list-style: none;
+        line-height: 30px;
+    }
+
+    .footer .ul1 li {
+        line-height: 35px;
+    }
+
+    .footer ul h3 {
+        font-size: 25px;
+    }
+
+    .footer .btn2 {
+        width: 60%;
+        height: 60px;
+        background-color: #D82A4E;
+        color: white;
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 8%;
+        margin-left: 0;
+        border-radius: 0;
+    }
+
+    .footer .name {
+        width: 60%;
+        height: 40px;
+        margin-top: 2%;
+        margin-left: 0;
+        padding-left: 10px;
+        border: 0;
+        background-color: rgb(235, 235, 235);
+        outline: 0;
+        border-bottom: 2px solid #D82A4E;
+    }
+}
